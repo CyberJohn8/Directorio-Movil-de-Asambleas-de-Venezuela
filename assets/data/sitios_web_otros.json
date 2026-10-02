@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "titular": "Believer's Magazine",
+    "descripcion": "Monthly magazine that strives to stimulate interest in the Lord's work and workers, and teach the changeless doctrines of Scripture.",
+    "enlace": "https://believersmagazine.com/bm.php?i=20170701"
+  },
+  {
+    "id": 3,
+    "titular": "The Lord's Work Trust",
+    "descripcion": "The Lord's Work Trust is a registered charity based in Kilmarnock, Scotland. It was established over 100 years ago in response to the wish of the Lord's people to support the Lord's work abroad. This desire was fostered by the missionary reports included in the Believer's Magazine in the 1890's.",
+    "enlace": "https://www.lordsworktrust-kilmarnock.co.uk/"
+  },
+  {
+    "id": 4,
+    "titular": "Truth & Tidings",
+    "descripcion": "Monthly magazine striving to teach sound doctine.",
+    "enlace": "https://truthandtidings.com/"
+  },
+  {
+    "id": 5,
+    "titular": "Gospel Hall Audio | Homepage",
+    "descripcion": "GospelHallAudio.org is a hub for biblical preaching and teaching – in the English language – given in Gospel Halls around the world.",
+    "enlace": "https://gospelhallaudio.org/"
+  }
+]

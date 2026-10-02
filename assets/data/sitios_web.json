@@ -1,0 +1,68 @@
+[
+  {
+    "id": 8,
+    "titular": "Una Obra Silenciosa",
+    "descripcion": "Libro escrito por el Dr. Neal Thompson, que relata cómo fue el inicio de la obra del Señor en Venezuela.",
+    "enlace": "https://entregandoelpan.com/articulos/obrasilenciosa.htm"
+  },
+  {
+    "id": 10,
+    "titular": "Entregando el Pan",
+    "descripcion": "Revistas digitales publicadas por Entregando el Pan.",
+    "enlace": "https://entregandoelpan.com/revistas/revistas.htm"
+  },
+  {
+    "id": 11,
+    "titular": "Evangelio en Brisbane",
+    "descripcion": "Compartiendo el mensaje del Evangelio con los habitantes de habla hispana en Brisbane, Australia.",
+    "enlace": "https://evangelioenbrisbane.org/"
+  },
+  {
+    "id": 12,
+    "titular": "La Buena Semilla",
+    "descripcion": "Mensaje bíblico diario.",
+    "enlace": "https://labuenasemilla.net/"
+  },
+  {
+    "id": 15,
+    "titular": "Pueblo Singular Entre las Naciones.",
+    "descripcion": "Canal de YouTube con videos de Ministerios, Estudios Bíblicos y Predicaciones por varios expositores.",
+    "enlace": "https://www.youtube.com/@pueblosingularentrelasnaci7604?themeRefresh=1"
+  },
+  {
+    "id": 16,
+    "titular": "Tesoro Digital",
+    "descripcion": "Aquí encontrará una mina de mas de 1.500 excelentes escritos Cristianos.",
+    "enlace": "https://tesorodigital.com/"
+  },
+  {
+    "id": 17,
+    "titular": "La Sana Doctrina",
+    "descripcion": "Revistas bimestral para la edificación, exhortación y consolación de creyentes en el Señor Jesucristo.",
+    "enlace": "https://sanadoctrina.net/"
+  },
+  {
+    "id": 18,
+    "titular": "Andandoenluz",
+    "descripcion": "Enlaces a audios de conferencias y ministerios.",
+    "enlace": "https://andandoenluz.com/"
+  },
+  {
+    "id": 19,
+    "titular": "Mensajero Mexicano",
+    "descripcion": "Evangelio, enseñanza y exhortación de las escrituras mediante artículos, audios, videos, revista digital y más...",
+    "enlace": "https://www.mensajeromexicano.com/"
+  },
+  {
+    "id": 20,
+    "titular": "Enlaces de las Conferencias (Telegram)",
+    "descripcion": "Grupo de Telegram para acceder a canales de las conferencias en Venezuela y Colombia.",
+    "enlace": "https://t.me/c/1932329800/1"
+  },
+  {
+    "id": 21,
+    "titular": "La Voz en el Desierto.",
+    "descripcion": "Periódico evangelístico fundado en 1949 por la Asamblea de la Av. Ppal del Cementerio, Caracas. Disponible de manera gratuita en formato impreso y digital.",
+    "enlace": "https://entregandoelpan.com/lavoz/lavoz.htm"
+  }
+]
