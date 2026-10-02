@@ -1,0 +1,13 @@
+@echo off
+echo Limpiando proyecto...
+flutter clean
+echo.
+echo Eliminando caché...
+rmdir /s /q build
+rmdir /s /q android\app\build
+echo.
+echo Obteniendo dependencias...
+flutter pub get
+echo.
+echo Ejecutando proyecto...
+flutter run
