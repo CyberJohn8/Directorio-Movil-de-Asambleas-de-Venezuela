@@ -1,0 +1,157 @@
+name: directorioasambleas
+description: Directorio de Asambleas Cristianas
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Para manejar permisos en Android
+  permission_handler: ^11.3.1  # 👈 AGREGAR ESTA LÍNEA
+  
+  cupertino_icons: ^1.0.8
+  http: ^1.1.0
+  flutter_tts: ^4.2.5
+  shared_preferences: ^2.2.20
+  sqflite: ^2.4.2
+  sqflite_common_ffi: ^2.3.3
+  logging: ^1.2.0
+  rfc_6901: ^0.2.1
+  intl: ^0.20.2
+  path: ^1.9.1
+  uuid: ^4.5.3
+  geolocator: ^12.0.0
+  # Para abrir enlaces y correos
+  url_launcher: ^6.3.2  # ⚠️ CAMBIAR A VERSIÓN MÁS RECIENTE
+  crypto: ^3.0.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.11
+
+
+  
+  
+  share_plus: ^10.1.2      # ← AGREGA ESTA LÍNEA
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.0
+  build_runner: ^2.4.13
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/images/estados/
+    - assets/images/ciudades/
+    - assets/icons/
+    - assets/fonts/
+    - assets/directorio.sql
+    - assets/data/iglesias.json
+    - assets/data/verses.json
+    - assets/data/books.json
+    - assets/data/coritos.json
+    - assets/data/himnos.json
+    - assets/data/sitios_web_otros.json
+    - assets/data/sitios_web.json
+    - assets/data/Biblia/dist/biblia/index.json
+    - assets/data/Biblia/dist/biblia/genesis.json
+    - assets/data/Biblia/dist/biblia/exodo.json
+    - assets/data/Biblia/dist/biblia/levitico.json
+    - assets/data/Biblia/dist/biblia/numeros.json
+    - assets/data/Biblia/dist/biblia/deuteronomio.json
+    - assets/data/Biblia/dist/biblia/josue.json
+    - assets/data/Biblia/dist/biblia/jueces.json
+    - assets/data/Biblia/dist/biblia/rut.json
+    - assets/data/Biblia/dist/biblia/1_samuel.json
+    - assets/data/Biblia/dist/biblia/2_samuel.json
+    - assets/data/Biblia/dist/biblia/1_reyes.json
+    - assets/data/Biblia/dist/biblia/2_reyes.json
+    - assets/data/Biblia/dist/biblia/1_cronicas.json
+    - assets/data/Biblia/dist/biblia/2_cronicas.json
+    - assets/data/Biblia/dist/biblia/esdras.json
+    - assets/data/Biblia/dist/biblia/nehemias.json
+    - assets/data/Biblia/dist/biblia/ester.json
+    - assets/data/Biblia/dist/biblia/job.json
+    - assets/data/Biblia/dist/biblia/salmos.json
+    - assets/data/Biblia/dist/biblia/proverbios.json
+    - assets/data/Biblia/dist/biblia/eclesiastes.json
+    - assets/data/Biblia/dist/biblia/cantares.json
+    - assets/data/Biblia/dist/biblia/isaias.json
+    - assets/data/Biblia/dist/biblia/jeremias.json
+    - assets/data/Biblia/dist/biblia/lamentaciones.json
+    - assets/data/Biblia/dist/biblia/ezequiel.json
+    - assets/data/Biblia/dist/biblia/daniel.json
+    - assets/data/Biblia/dist/biblia/oseas.json
+    - assets/data/Biblia/dist/biblia/joel.json
+    - assets/data/Biblia/dist/biblia/amos.json
+    - assets/data/Biblia/dist/biblia/abdias.json
+    - assets/data/Biblia/dist/biblia/jonas.json
+    - assets/data/Biblia/dist/biblia/miqueas.json
+    - assets/data/Biblia/dist/biblia/nahum.json
+    - assets/data/Biblia/dist/biblia/habacuc.json
+    - assets/data/Biblia/dist/biblia/sofonias.json
+    - assets/data/Biblia/dist/biblia/hageo.json
+    - assets/data/Biblia/dist/biblia/zacarias.json
+    - assets/data/Biblia/dist/biblia/malaquias.json
+    - assets/data/Biblia/dist/biblia/mateo.json
+    - assets/data/Biblia/dist/biblia/marcos.json
+    - assets/data/Biblia/dist/biblia/lucas.json
+    - assets/data/Biblia/dist/biblia/juan.json
+    - assets/data/Biblia/dist/biblia/hechos.json
+    - assets/data/Biblia/dist/biblia/romanos.json
+    - assets/data/Biblia/dist/biblia/1_corintios.json
+    - assets/data/Biblia/dist/biblia/2_corintios.json
+    - assets/data/Biblia/dist/biblia/galatas.json
+    - assets/data/Biblia/dist/biblia/efesios.json
+    - assets/data/Biblia/dist/biblia/filipenses.json
+    - assets/data/Biblia/dist/biblia/colosenses.json
+    - assets/data/Biblia/dist/biblia/1_tesalonicenses.json
+    - assets/data/Biblia/dist/biblia/2_tesalonicenses.json
+    - assets/data/Biblia/dist/biblia/1_timoteo.json
+    - assets/data/Biblia/dist/biblia/2_timoteo.json
+    - assets/data/Biblia/dist/biblia/tito.json
+    - assets/data/Biblia/dist/biblia/filemon.json
+    - assets/data/Biblia/dist/biblia/hebreos.json
+    - assets/data/Biblia/dist/biblia/santiago.json
+    - assets/data/Biblia/dist/biblia/1_pedro.json
+    - assets/data/Biblia/dist/biblia/2_pedro.json
+    - assets/data/Biblia/dist/biblia/1_juan.json
+    - assets/data/Biblia/dist/biblia/2_juan.json
+    - assets/data/Biblia/dist/biblia/3_juan.json
+    - assets/data/Biblia/dist/biblia/judas.json
+    - assets/data/Biblia/dist/biblia/apocalipsis.json
+    
+    - assets/data/Biblia_Ingles/kjv.json
+    
+    - assets/data/Biblia/dist/biblia/
+    - assets/data/Biblia_Ingles/
+  
+  fonts:
+    - family: Sansation
+      fonts:
+        - asset: assets/fonts/Sansation-Regular.ttf
+        - asset: assets/fonts/Sansation-Bold.ttf
+          weight: 700
+    - family: OleoScript
+      fonts:
+        - asset: assets/fonts/OleoScript-Regular.ttf
+        - asset: assets/fonts/OleoScript-Bold.ttf
+          weight: 700
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/Untitled design.png"  # 👈 Esta es la imagen que usas
+  min_sdk_android: 21
+  adaptive_icon_background: "#00000000"  # Transparente
+  adaptive_icon_foreground: "assets/images/Untitled design.png"
+  remove_alpha_ios: true
